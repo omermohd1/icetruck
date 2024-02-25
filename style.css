@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@300;400&display=swap');
+
+/* General Styling Start */
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    scroll-behavior: smooth !important;
+}
+body{
+    background: #01c0af !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+.nav-link, p, button, button[type="submit"], input, textarea{
+    font-family: 'Open Sans', sans-serif;
+}
+::selection{
+    background: #b11d59 !important;
+    color: #fff !important;
+}
+/* General Styling End */
+
+/* Header Start */
+.header{
+    background-color: transparent;
+    background-image: radial-gradient(at top right,#b11d59 0%,#B11D5900 65%);
+    min-height: 100vh;
+}
+.nav-link{
+    color: #ffffffd9 !important;
+}
+.nav-link:hover{
+    color: #ffffff !important;
+}
+.navbar-toggler{
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+    height: 42px;
+    width: 42px;
+    box-shadow: none !important;
+    padding: 0;
+}
+.navbar-toggler-icon{
+    position: relative;
+    width: 1.1em !important;
+    height: 1.1em !important;
+}
+.food-truck-heading{
+    font-weight: 500;
+    font-size: 15rem;
+    color: #ffffff2b;
+    padding-left: 33px;
+    margin-top: -5px;
+}
+.header-welcome-section{
+    margin-top: -171px !important;
+    position: relative;
+}
+.background-side-image{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: .2;
+    z-index: -1;
+}
+.header-background-side-image{
+    background-image: url(images/bg-03-free-img.png);
+    bottom: 0;
+    background-position: bottom left;
+    background-size: 30%;
+}
+.header-welcome-details{
+    padding-left: 6rem;
+    padding-top: 89px;
+}
+.header-welcome-heading{
+    font-size: 6.25rem;
+    color: #ffffff;
+}
+hr.welcome-heading-underline{
+    border: 0.12rem solid #ffffffd9;
+    margin: 23px 0 calc(20px + 1rem) !important;
+    opacity: 1 !important;
+    width: 6.1rem;
+}
+.header-welcome-subHeading{
+    line-height: 1.4em;
+    font-size: 2rem;
+    color: #fff;
+}
+.header-welcome-text{
+    color: #ffffffd9;
+}
+.header-welcome-image img{
+    max-width: 100% !important;
+}
+/* Header End */
+
+/* Daily Specials (Section 2) Start */
+.daily-specials{
+    padding-top: 200px !important; 
+    position: relative;
+}
+.daily-specials-background-side-image{
+    background-image: url(images/bg-04-free-img.png);
+    top: 0;
+    background-position: top left;
+    background-size: 30%;
+}
+.daily-specials-text-side{
+    padding-left: 3.3rem !important;
+}
+.daily-specials-text{
+    padding-right: 18% !important;
+}
+.menuItem{
+    border: 1px solid #01d1bf !important;
+    padding: 0.5% 2.5% 1.5%;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.menuItem:hover{
+    background-color: #01d1bf;
+    cursor: pointer;
+}
+.menuItem .menuItem-img{
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuItem-img img{
+    max-width: 100%;
+}
+.menuItem .menuItem-data h6{
+    font-size: 0.9375rem !important;
+}
+/* Daily Specials (Section 2) End */
+
+/* Our Menu (Section 3) Start */
+.our-menu{
+    padding-top: 150px !important;
+}
+hr.our-menu-heading-underline{
+    margin: 20px 0 calc(17px + 1rem) !important;
+}
+.our-menu-part{
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
+}
+.our-menu-part-single{
+    padding: 100px !important;
+    border: 1px solid #01d1bf !important;
+    transition: 0.3s ease-in-out;
+}
+.our-menu-part-single:hover{
+    background-color: #01d1bf !important;
+}
+.our-menu-part-single h3{
+    font-size: 2rem !important;
+    color: #fff;
+}
+.our-menu-heading-line{
+    width: 12.8rem !important;
+}
+.ourMenuItem{
+    border-bottom: 1px solid #01d1bf !important;
+}
+.ourMenuItem .image img{
+    max-width: 93% !important;
+}
+.ourMenuItem h5{
+    font-size: 1.125rem !important;
+}
+.ourMenuItem h4{
+    font-size: 1.25rem;
+}
+.our-menu-row-1{
+    background-color: transparent;
+    background-image: radial-gradient(at bottom left,#b11d59 -80%,#B11D5900 50%);
+}
+.our-menu-row-2{
+    background-color: transparent;
+    background-image: radial-gradient(at top left,#b11d59 -80%,#B11D5900 50%);
+}
+.our-menu-part .background-side-image{
+    mix-blend-mode: screen !important;
+}
+.our-menu-row-2 .our-menu-part-single{
+    border-top: 0 !important;
+}
+/* Our Menu (Section 3) End */
+
+/* Location (Section 4) Start */
+.location-schedule{
+    padding-top: 150px !important;
+}
+.location-map iframe{
+    box-shadow: 0px 14px 20px #00000038;
+    padding: 0 !important;
+}
+/* Location (Section 4) End */
+
+/* About (Section 5) Start */
+.about-section{
+    padding-top: 210px !important;
+}
+.about-section .about-section-image-side #about-img{
+    max-width: 100% !important;
+    box-shadow: 0 50px 80px 0 rgba(4.9999999999999964,115,108.00000000000001,.4);
+    width: 475px;
+    aspect-ratio: auto 475 / 645;
+}
+.about-section .about-section-image-side #signature-img{
+    max-width: 100% !important;
+    position: absolute;
+    bottom: -19.4%;
+    right: -27%;
+}
+.about-section .about-section-text-side{
+    padding-left: 6.5rem;
+    padding-right: 3.5rem;
+}
+.about-section-bg-effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: radial-gradient(at center 60%,#b11d59 1%,#B11D5900 50%);
+    opacity: .2;
+    z-index: -1;
+}
+/* About (Section 5) End */
+
+/* Contact (Section 6) Start */
+.contact-section{
+    padding: 300px 12.3% 125px !important;
+}
+.contact-section-line-cover hr.contact-section-line{
+    width: 100% !important;
+    margin-bottom: 80px !important;
+}
+.phone-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.phone-icon i{
+    font-size: 1.6rem !important;
+    color: #fff;
+}
+.phone-details h6{
+    font-size: 0.9375rem !important;
+    color: #fff;
+}
+.phone-details p {
+    color: #ffffffd9 !important;
+}
+.contact .phone-icon{
+    transition: 0.3s ease-in-out;
+}
+.contact .phone-icon:hover{
+    background: #01d1bf;
+    cursor: pointer;
+}
+.contact-section-form input,
+.contact-section-form textarea{
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    outline: none !important;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.contact-section-form input:focus,
+.contact-section-form textarea:focus{
+    border-color: #a7a7a7 !important;
+}
+.contact-section-form textarea{
+    height: 120px !important;
+}
+.contact-form-name-row{
+    gap: 1.4rem !important;
+}
+.contact-section-form button{
+    background: #b11d59 !important;
+    border-color: #b11d59 !important;
+    padding: 11px 32px !important;
+    color: #fff !important;
+    transition: 0.3s ease-in-out;
+}
+.contact-section-form button:hover{
+    transform: scale(0.99);
+}
+/* Contact (Section 6) End */
+
+/* Footer Start */
+.footer{
+    background: #b11d59 !important;
+}
+.footer-top{
+    padding: 118px 10px 55px;
+}
+.footer-top h2{
+    font-size: 2rem;
+    color: #ffffffd9;
+}
+.footer-top p{
+    color: #ffffffd9 !important;
+}
+.social-icons{
+    gap: 0.64rem !important;
+}
+.social-icons .social-icon{
+    width: 46px;
+    height: 46px;
+    background-color: #ffffff2e;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+.social-icon i{
+    font-size: 16px !important;
+}
+.social-icons .social-icon:hover{
+    background-color: #fff;
+    color: #b11d59;
+}
+.footer-bottom{
+    padding: 20px 10px;
+    color: #fff;
+}
+.footer-bottom p{
+    font-size: 15px !important;
+}
+.footer-shape{
+    margin-bottom: -2px !important;
+}
+.footer-shape svg{
+    transform: rotate(180deg);
+}
+.footer-shape svg path{
+    fill: #b11d59 !important;
+}
+.footer-shape .footer-shape-food-truck-img{
+    background: #b11d59;
+}
+.footer-shape .footer-shape-food-truck-img img{
+    width: 16.7%;
+    position: absolute;
+    bottom: -38px;
+}
+/* Footer End */
+
+
+
+
+
+
+
+/* Responsiveness */
+
+@media(max-width: 1148px){
+    .header-welcome-section {
+        margin-top: -131px !important;
+    }
+    .header-welcome-image{
+        padding-top: 60px;
+    }
+    .header-welcome-details {
+        padding-left: 4rem;
+    }
+    .food-truck-heading{
+        margin-top: 15px;
+        line-height: 0.88em !important;
+    }
+}
+
+@media(max-width: 1020px){
+    .header-welcome-details {
+        padding-left: 2rem;
+    }
+    .header-welcome-details .header-welcome-heading{
+        font-size: 5.25rem;
+    }
+    .header-welcome-details hr.welcome-heading-underline{
+        margin: 10px 0 calc(5px + 1rem) !important;
+    }
+    .header-welcome-details .header-welcome-subHeading{
+        font-size: 1.7rem;
+    }
+    .contact-section {
+        padding: 250px 4.3% 100px !important;
+    }
+    .about-section .about-section-text-side{
+        padding-left: 2.8rem;
+    }
+}
+
+@media(max-width: 992px){
+    .daily-specials {
+        padding-top: 103px !important;
+    }
+    .daily-specials-text-side {
+        padding-left: 2rem !important;
+    }
+    .daily-specials-menu-side{
+        margin-top: 30px !important;
+        padding: 0 30px !important;
+    }
+    .menuItem .menuItem-data h3 {
+        font-size: 2rem !important;
+    }
+    .location-schedule .header-welcome-heading{
+        font-size: 5.15rem;
+    }
+    .about-section .about-section-text-side{
+        padding-right: 1rem;
+    }
+    .about-section-text-side .header-welcome-heading{
+        font-size: 5.25rem;
+    }
+    .about-section-text-side .header-welcome-subHeading{
+        font-size: 1.8rem;
+    }
+    .about-section-text-side .header-welcome-text{
+        font-size: 15px;
+    }
+    .about-section-text-side hr{
+        margin: 12px 0 24px;
+    }
+    
+}
+
+@media(max-width: 920px){
+    .food-truck-heading{
+        font-size: 150px !important;
+        padding-left: 7px;
+    }
+    .header-welcome-section {
+        margin-top: -120px !important;
+    }
+    .header-welcome-details {
+        padding-left: 3rem;
+    }
+    .header-welcome-heading{
+        font-size: 65px !important;
+    }
+    .header-welcome-subHeading{
+        font-size: 26px !important;
+    }
+    .header-welcome-text{
+        font-size: 15px !important;
+    }
+    .header-welcome-details hr.welcome-heading-underline,
+    hr.welcome-heading-underline {
+        margin: 7px 0 18px !important;
+    }
+    .daily-specials {
+        padding-top: 83px !important;
+    }
+    .daily-specials-text{
+        padding-right: 0% !important;
+        width: 50% !important;
+    }
+    .menuItem .menuItem-data h3 {
+        font-size: 27px !important;
+    }
+    .about-section {
+        padding-top: 180px !important;
+    }
+    .about-section-text-side .header-welcome-heading{
+        font-size: 5rem;
+    }
+    .about-section-text-side .header-welcome-subHeading{
+        font-size: 1.7rem;
+    }
+    .about-section-text-side .header-welcome-text{
+        font-size: 14px !important;
+    }
+    .about-section .about-section-image-side #signature-img {
+        bottom: -23.4%;
+    }
+    .our-menu {
+        padding-top: 125px !important;
+    }
+    .footer-shape .footer-shape-food-truck-img img {
+        width: 19.7%;
+    }
+}
+
+@media(max-width: 768px){
+    .food-truck-heading{
+        text-align: center;
+        margin-top: 20px !important;
+        line-height: 1em !important;
+        padding-left: 0px;
+    }
+    .header-welcome-section {
+        margin-top: 0px !important;
+    }
+    .daily-specials-text-side,
+    .header-welcome-details {
+        padding: 50px 5rem 0 !important;
+    }
+    .header-welcome-heading, .header-welcome-subHeading, .header-welcome-text{
+        text-align: center !important;
+    }
+    .location-schedule .header-welcome-heading, 
+    .location-schedule  .header-welcome-subHeading,
+    .location-schedule  .header-welcome-text{
+        text-align: left !important;
+    }
+    .header-welcome-image{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .header-welcome-image img {
+        max-width: 70% !important;
+        margin-left: 20px;
+    }
+    .header-welcome-heading-cover{
+        padding-left: 0 !important;
+    }
+    .daily-specials-text {
+        width: 100% !important;
+    }
+    .daily-specials {
+        padding-top: 12px !important;
+    }
+    .daily-specials-menu-side{
+        padding: 0px !important;
+    }
+    .menuItem{
+        padding: 6% 4.5% 5%;
+    }
+    .menuItem .menuItem-data h3 {
+        font-size: 2rem !important;
+    }
+    .our-menu-text{
+        width: 90% !important;
+    }
+    .our-menu-part {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .our-menu-part-single {
+        padding: 50px !important;
+    }
+    .location-map{
+        padding: 0 1rem !important;
+    }
+    .location-schedule {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        padding-top: 100px !important;
+    }
+    .contact-section {
+        padding: 80px 4.3% 70px !important;
+    }
+    .about-section {
+        padding-top: 130px !important;
+    }
+    .phone-icon {
+        width: 55px !important;
+        height: 55px !important;
+    }
+    .about-section .about-section-text-side {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+    .about-section .about-section-text-side *{
+        text-align: start !important;
+    }
+    .about-section .about-section-image-side #signature-img {
+        bottom: -18.4%;
+        right: 13% !important;
+        max-width: 40% !important;
+    }
+    .footer-top {
+        padding: 188px 10px 55px;
+    }
+    .footer-top-text{
+        width: 80% !important;
+        font-size: 15px !important;
+    }
+    .footer-shape svg{
+        height: 80px;
+        width: 200%;
+        transform: translate(-31%, 0) rotate(180deg);
+    }
+    .footer-shape .footer-shape-food-truck-img img {
+        width: 42%;
+        bottom: -88px;
+    }
+
+}
+
+@media(max-width: 659px){
+    .about-section .about-section-image-side #signature-img {
+        right: 0 !important;
+    }
+    .footer-top {
+        padding: 158px 10px 55px;
+    }
+    .footer-shape .footer-shape-food-truck-img img {
+        bottom: -68px;
+    }
+}
+
+@media(max-width: 544px){
+    .food-truck-heading{
+        font-size: 80px !important;
+    }
+    .daily-specials-text-side,
+    .header-welcome-details {
+        padding: 38px 1rem 0 !important;
+    }
+    .header-welcome-heading{
+        font-size: 50px !important;
+    }
+    .header-welcome-subHeading{
+        font-size: 24px !important;
+    }
+    .header-welcome-image {
+        padding-top: 35px;
+    }
+    .header-welcome-image img {
+        max-width: 80% !important;
+    }
+    .menuItem{
+        padding: 12% 4.5% 8%;
+    }
+    .menuItem .menuItem-img {
+        padding-bottom: 30px !important;
+    }
+    .menuItem-img img{
+        max-width: 45%;
+    }
+    .our-menu {
+        padding-top: 95px !important;
+    }
+    .our-menu-part-single {
+        padding: 30px !important;
+    }
+    .our-menu-part-single h3 {
+        font-size: 29px !important;
+    }
+    .ourMenuItem{
+        margin-bottom: 30px !important;
+    }
+    .ourMenuItem .image img {
+        max-width: 65px !important;
+        margin-right: 10px;
+    }
+    .ourMenuItem h4 {
+        font-size: 1.1rem;
+    }
+    .location-map{
+        padding: 0 !important;
+    }
+    .location-map iframe {
+        height: 270px !important;
+    }
+    .location-schedule {
+        padding-right: 2rem;
+        padding-left: 2.5rem;
+    }
+    .contact-section {
+        padding: 60px 6.3% 40px !important;
+    }
+    .contact-form-name-row{
+        gap: 1.3rem !important;
+    }
+    .contact-section-line-cover hr.contact-section-line{
+        margin-bottom: 60px !important;
+    }
+    .footer-top h2 {
+        font-size: 1.88rem;
+    }
+    .footer-top-text{
+        width: 93% !important;
+    }
+    .footer-bottom p {
+        font-size: 14px !important;
+    }
+    .footer-shape .footer-shape-food-truck-img img {
+        width: 48%;
+        bottom: -60px;
+    }
+    .about-section {
+        padding-top: 100px !important;
+    }
+}
+
+@media(max-width: 427px){
+    .ourMenuItem{
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    .ourMenuItem div:nth-child(1){
+        flex-direction: column !important;
+        gap: 10px !important;
+        text-align: center;
+    }
+    .ourMenuItem .image img {
+        max-width: 80px !important;
+        margin-right: 0px !important;
+    }
+    .our-menu-part-single-heading{
+        flex-direction: column !important;
+        gap: 5px !important;
+    }
+    .menuItem .menuItem-data h3 {
+        font-size: 25px !important;
+    }
+    .footer-top {
+        padding: 105px 10px 55px;
+    }
+    .footer-shape svg {
+        width: 350%;
+        transform: translate(-42%, 0) rotate(180deg);
+    }
+    .footer-shape .footer-shape-food-truck-img img {
+        bottom: -43px;
+    } 
+}
